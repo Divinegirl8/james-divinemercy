@@ -85,6 +85,11 @@ const Skills:React.FC = () =>{
         <SquareShaped text="TailwindCss" color="black"/>
         </div>
 
+        <div className="flex flex-row gap-2 w-[9rem] h-10 bg-white rounded-[50px] " >
+            <img src={mongodb} className="w-6 h-6 ml-2 mt-[9px]"/>     
+            <SquareShaped text="MongoDb" color="black"/>
+            </div>
+
         </div>
 
 
@@ -126,6 +131,11 @@ const Skills:React.FC = () =>{
             <img src={vue} className="w-5 h-4 ml-2 mt-3 "/> 
             <SquareShaped text="VueJs" color="black"/>
             </div>
+
+            <div className="flex flex-row gap-2 w-[8rem] h-10 bg-white rounded-[50px] " >
+            <img src={linux} className="w-8 h-8 ml-2 mt-1"/>     
+            <SquareShaped text="Linux" color="black"/>
+            </div>
             </div>
 
             <div className="flex flex-row gap-2 mt-5 justify-center mx-auto ">
@@ -148,6 +158,11 @@ const Skills:React.FC = () =>{
             <img src= {figma} className="w-5 h-5 ml-3 mt-2"/> 
             <SquareShaped text="Figma (Design Tool)" color="black"/>
             </div>
+
+            <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
+            <img src={mysql} className="w-9 h-9 ml-2 mt-1"/> 
+            <SquareShaped text="MySql" color="black"/>
+            </div>
              </div>
 
 
@@ -167,6 +182,11 @@ const Skills:React.FC = () =>{
             <SquareShaped text="JUnit" color="black"/>
             </div>
 
+            <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
+            <img src={postgres} className="w-6 h-5 ml-3 mt-[10px]"/> 
+            <SquareShaped text="Postgres" color="black"/>
+            </div>
+
              </div>
    
              <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
@@ -180,6 +200,11 @@ const Skills:React.FC = () =>{
             <SquareShaped text="Postman" color="black"/>
             </div>
 
+            <div className="flex flex-row gap-1 w-[5rem] h-10 bg-white rounded-[50px] " >
+            <img src={ios} className="w-5 h-5 ml-2 mt-2"/> 
+            <SquareShaped text="Mac" color="black"/>
+            </div>
+
             </div>
 
 
@@ -189,56 +214,20 @@ const Skills:React.FC = () =>{
             <SquareShaped text="Pytest" color="black"/>
             </div>
 
-            </div>
-
-
-
-         <div className="text-center text-golden-color text-[2rem] mt-16">
-           <p> DataBase</p>
-         </div>
-
-
-            <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
-            <div className="flex flex-row gap-2 w-[9rem] h-10 bg-white rounded-[50px] " >
-            <img src={mongodb} className="w-6 h-6 ml-2 mt-[9px]"/>     
-            <SquareShaped text="MongoDb" color="black"/>
-            </div>
-
-            <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
-            <img src={mysql} className="w-9 h-9 ml-2 mt-1"/> 
-            <SquareShaped text="MySql" color="black"/>
-            </div>
-
-            <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
-            <img src={postgres} className="w-6 h-5 ml-3 mt-[10px]"/> 
-            <SquareShaped text="Postgres" color="black"/>
-            </div>
-
-             </div>
-
-
-             <div className="text-center text-golden-color text-[2rem] mt-16">
-               <p> Operating System</p>
-             </div>
-
-
-             <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
-            <div className="flex flex-row gap-2 w-[8rem] h-10 bg-white rounded-[50px] " >
-            <img src={linux} className="w-8 h-8 ml-2 mt-1"/>     
-            <SquareShaped text="Linux" color="black"/>
-            </div>
-
             <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
             <img src={windows} className="w-5 h-5 ml-2 mt-[10px] mr-1"/> 
             <SquareShaped text="Windows" color="black"/>
             </div>
 
-            <div className="flex flex-row gap-1 w-[5rem] h-10 bg-white rounded-[50px] " >
-            <img src={ios} className="w-5 h-5 ml-2 mt-2"/> 
-            <SquareShaped text="Mac" color="black"/>
             </div>
 
-             </div>
+
+
+       
+
+
+          
+
         
         </>
     )

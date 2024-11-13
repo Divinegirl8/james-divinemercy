@@ -92,8 +92,15 @@ const About:React.FC = () =>{
     </p>
   </div>
 </div>
-
    
+   
+<div className="flex flex-row gap-2 mt-5 justify-center mx-auto">
+  <div className="flex flex-row justify-center items-center w-[10rem] h-10 bg-white rounded-[50px] text-center">
+    <p className="text-center font-semibold cursor-pointer">Contact Me</p>
+  </div>
+</div>
+
+
     
     </>
    )
