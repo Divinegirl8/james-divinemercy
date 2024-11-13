@@ -1,8 +1,5 @@
 import React from "react";
 import SquareShaped from "../Resuables/SqaureShaped";
-import headPhone from "../../assets/about/headphone-removebg-preview.png";
-import pot from "../../assets/about/pot-removebg-preview.png";
-import creativity from "../../assets/about/creativity-removebg-preview.png";
 import html5 from "../../assets/skill/html.png"
 import css from "../../assets/skill/css.png"
 import javascript from "../../assets/skill/javascript.png"
@@ -28,6 +25,11 @@ import postgres from "../../assets/skill/postgres-removebg-preview.png"
 import linux from "../../assets/skill/linux-removebg-preview.png"
 import windows from "../../assets/skill/windows-removebg-preview.png"
 import ios from "../../assets/skill/ios-removebg-preview.png"
+import typescript from "../../assets/skill/ts-removebg-preview.png"
+import junit from "../../assets/skill/junit-removebg-preview.png"
+import render from "../../assets/skill/render-removebg-preview.png"
+import postman from "../../assets/skill/postman-removebg-preview.png"
+import pytest from "../../assets/skill/pytest-removebg-preview.png"
 
 const Skills:React.FC = () =>{
     return(
@@ -146,8 +148,50 @@ const Skills:React.FC = () =>{
             <img src= {figma} className="w-5 h-5 ml-3 mt-2"/> 
             <SquareShaped text="Figma (Design Tool)" color="black"/>
             </div>
+             </div>
+
+
+             <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
+            <div className="flex flex-row gap-2 w-[9rem] h-10 bg-white rounded-[50px] " >
+            <img src={typescript} className="w-8 h-6 ml-2 mt-[10px]"/>     
+            <SquareShaped text="Typescript" color="black"/>
+            </div>
+
+            <div className="flex flex-row gap-1 w-[9rem] h-10 bg-white rounded-[50px] " >
+            <img src={react} className="w-5 h-5 ml-2 mt-[10px] mr-1"/> 
+            <SquareShaped text="ReactNative" color="black"/>
+            </div>
+
+            <div className="flex flex-row gap-1 w-[6rem] h-10 bg-white rounded-[50px] " >
+            <img src={junit} className="w-7 h-7 ml-2 mt-1"/> 
+            <SquareShaped text="JUnit" color="black"/>
+            </div>
 
              </div>
+   
+             <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
+             <div className="flex flex-row gap-1 w-[7rem] h-10 bg-white rounded-[50px] " >
+            <img src={render} className="w-5 h-5 ml-2 mt-[10px]"/> 
+            <SquareShaped text="Render" color="black"/>
+            </div>
+
+            <div className="flex flex-row gap-1 w-[8rem] h-10 bg-white rounded-[50px] " >
+            <img src={postman} className="w-7 h-7 ml-2 mt-1"/> 
+            <SquareShaped text="Postman" color="black"/>
+            </div>
+
+            </div>
+
+
+            <div className="flex flex-row gap-2 mt-10 justify-center mx-auto ">
+             <div className="flex flex-row gap-1 w-[7rem] h-10 bg-white rounded-[50px] " >
+            <img src={pytest} className="w-7 h-7 ml-2 mt-2"/> 
+            <SquareShaped text="Pytest" color="black"/>
+            </div>
+
+            </div>
+
+
 
          <div className="text-center text-golden-color text-[2rem] mt-16">
            <p> DataBases</p>
