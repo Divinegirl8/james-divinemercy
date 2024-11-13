@@ -9,7 +9,7 @@ import location from "../../assets/cert-edu/location-removebg-preview.png";
 const Education: React.FC = () =>{
     return(
         <>
-          <div className="text-center text-golden-color text-[2rem] mt-32">
+          <div className="text-center text-golden-color text-[2rem] mt-14">
           Education / Certificate
          </div>
 

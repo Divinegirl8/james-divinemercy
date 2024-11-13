@@ -5,7 +5,7 @@ import style from "./index.module.css"
 const HeroPage: React.FC = () => {
   return (
     <>
-      <div className={`bg-hero-picture bg-cover bg-center pt-[40rem]  flex justify-center items-center`}>
+      <div className={`bg-hero-picture bg-cover bg-center pt-[38rem]  flex justify-center items-center`}>
         <div className="flex justify-center items-center">
         <img src={heroPicture} className="mt-[-30rem]"/>
         </div>

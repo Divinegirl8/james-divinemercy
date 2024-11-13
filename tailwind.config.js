@@ -11,7 +11,8 @@ module.exports = {
       },
       backgroundColor :{
          "ash-color" : "#181818",
-         "silver-color" : "#C3C3C2"
+         "silver-color" : "#C3C3C2",
+         "golden-color" : "#FFD700"
       }
     },
   },

@@ -35,7 +35,7 @@ const Skills:React.FC = () =>{
     return(
         <>
         
-        <div className="text-center text-golden-color text-[2rem] mt-28">
+        <div className="text-center text-golden-color text-[2rem] mt-14">
            <p> Skills</p>
            <p className="mt-16">Technologies I Use</p>
          </div>

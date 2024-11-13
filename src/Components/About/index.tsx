@@ -13,16 +13,16 @@ const About:React.FC = () =>{
    return(
     <>
     
-    <div className="text-center text-golden-color text-[2rem] mt-32">
+    <div className="text-center text-golden-color text-[2rem] mt-1">
           About Me
     </div>
 
-    <div className="flex flex-row gap-3 ml-5 mt-20">
+    <div className="flex flex-row gap-3 ml-20 mt-20">
       <img src={me} className="w-10 h-10 rounded-full"/>
       <p className="text-golden-color text-[18px] pt-2 ">I Love</p>
     </div>
 
-    <div className="ml-5 mt-5">
+    <div className="ml-20 mt-5">
 
       <div className="flex flex-row gap-2">
 
@@ -58,12 +58,12 @@ const About:React.FC = () =>{
     </div>
 
     <div className="mt-3 flex flex-row gap-2">
-    <div className="flex flex-row gap-1 w-[14rem] h-10 bg-white rounded-[50px] " >
+    <div className="flex flex-row gap-1 w-[12rem] h-10 bg-white rounded-[50px] " >
       <img src={movie} className="w-5 h-5 ml-2 mr-1 mt-[10px]"/> 
       <SquareShaped text="Watching Movie" color="black"/>
       </div>
 
-      <div className="flex flex-row gap-1 w-[14rem] h-10 bg-white rounded-[50px] " >
+      <div className="flex flex-row gap-1 w-[10rem] h-10 bg-white rounded-[50px] " >
       <img src={out} className="w-5 h-5 ml-2 mr-1 mt-[10px]"/> 
       <SquareShaped text="Hanging Out" color="black"/>
       </div>
@@ -72,7 +72,7 @@ const About:React.FC = () =>{
     </div>
 
 
-    <div className="p-6 sm:p-12 md:p-16 lg:p-20 text-center">
+    <div className="p-6 sm:p-12 md:p-16 lg:pt-20  text-center">
   <div className="bg-ash-color text-white mx-auto p-8 rounded-lg">
     <p>
       I'm a dedicated Software Engineer with a passion for crafting reliable, efficient,
@@ -94,7 +94,7 @@ const About:React.FC = () =>{
 </div>
    
    
-<div className="flex flex-row gap-2 mt-5 justify-center mx-auto">
+<div className="flex flex-row gap-2  justify-center mx-auto">
   <div className="flex flex-row justify-center items-center w-[10rem] h-10 bg-white rounded-[50px] text-center">
     <p className="text-center font-semibold cursor-pointer">Contact Me</p>
   </div>
