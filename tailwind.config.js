@@ -10,7 +10,8 @@ module.exports = {
         "golden-color" : "#FFD700"
       },
       backgroundColor :{
-         "ash-color" : "#181818"
+         "ash-color" : "#181818",
+         "silver-color" : "#C3C3C2"
       }
     },
   },
