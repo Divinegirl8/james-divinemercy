@@ -194,7 +194,7 @@ const Skills:React.FC = () =>{
 
 
          <div className="text-center text-golden-color text-[2rem] mt-16">
-           <p> DataBases</p>
+           <p> DataBase</p>
          </div>
 
 

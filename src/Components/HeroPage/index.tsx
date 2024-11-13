@@ -20,3 +20,4 @@ const HeroPage: React.FC = () => {
 };
 
 export default HeroPage;
+
