@@ -12,7 +12,7 @@ const Experience = () => {
            <p className="mt-16">Experience</p>
          </div>
 
-         <div className="bg-silver-color w-full max-w-4xl h-80 rounded-[20px] mx-auto px-4 lg:px-8 mt-10">
+         <div className="bg-silver-color w-full max-w-4xl h-[25rem] rounded-[20px] mx-auto px-4 lg:px-8 mt-10">
             <div className="flex flex-row justify-between">
                 <div className="flex flex-row gap-2 w-[14rem] h-[3.3rem] bg-black rounded-[50px] mt-5">
                 <img src={semicolon} className="w-[4.5rem] h-[4.5rem] ml-[-9px] mt-[-8px]" alt="Calendar Icon" />
@@ -31,10 +31,18 @@ const Experience = () => {
                 </div>
                 
             </div>
-
             <div className="mt-7 ml-2">
-                <p className="font-bold">Software Engineer</p>
+                <h1 className="font-bold text-xl">Backend Engineer Intern</h1>
+                <div className="mt-5 space-y-3">
+                    <p>&#8594; Designed and maintained RESTful APIs for seamless integration between the frontend and backend</p>
+                    <p>&#8594; Collaborated closely with cross-functional teams, including developers, cloud engineers, QA, and designers</p>
+                    <p>&#8594; Wrote and maintained documentation for API endpoints, database schemas, and system architecture</p>
+                    <p>&#8594; Optimized server and database performance, reducing response times by leveraging caching and indexing</p>
+                    <p>&#8594; Wrote and maintained unit and integration tests to ensure code quality and prevent regressions</p>
+                    <p>&#8594; Debugged and resolved issues in production systems, ensuring reliability and uptime</p>
+                </div>
             </div>
+
         </div>
 
         

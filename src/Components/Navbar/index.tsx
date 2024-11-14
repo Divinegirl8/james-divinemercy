@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
     <nav className="relative flex items-center justify-between p-4 text-white">
       {/* Logo */}
       <div className="text-lg font-semibold"></div>
-      
+
       {/* Fixed Hamburger / Close Icon */}
       <div
         className="fixed top-4 right-4 flex flex-col cursor-pointer space-y-1.5 z-50"
@@ -41,14 +41,52 @@ const NavBar: React.FC = () => {
         } flex flex-col lg:flex-row items-center justify-center space-y-6 gap-5`}
       >
         <div className="lg:ml-[-5rem]"></div>
-        <Link to="/" className="text-lg hover:text-gray-300">Home</Link>
-        <Link to="/about" className="text-lg hover:text-gray-300">About</Link>
-        <Link to="/skills" className="text-lg hover:text-gray-300">Skills</Link>
-        <Link to="/qualification" className="text-lg hover:text-gray-300">Qualifications</Link>
-        <Link to="/contact" className="text-lg hover:text-gray-300">Projects</Link>
+        
+        {/* Links with animated transitions */}
+        <Link
+          to="/"
+          className={`text-lg hover:text-gray-300 transition-all duration-500 ${
+            menuOpen ? "animate-slideIn" : "animate-slideOut"
+          }`}
+        >
+          Home
+        </Link>
+        <Link
+          to="/about"
+          className={`text-lg hover:text-gray-300 transition-all duration-500 ${
+            menuOpen ? "animate-slideIn" : "animate-slideOut"
+          }`}
+        >
+          About
+        </Link>
+        <Link
+          to="/skills"
+          className={`text-lg hover:text-gray-300 transition-all duration-500 ${
+            menuOpen ? "animate-slideIn" : "animate-slideOut"
+          }`}
+        >
+          Skills
+        </Link>
+        <Link
+          to="/qualification"
+          className={`text-lg hover:text-gray-300 transition-all duration-500 ${
+            menuOpen ? "animate-slideIn" : "animate-slideOut"
+          }`}
+        >
+          Qualifications
+        </Link>
+        <Link
+          to="/contact"
+          className={`text-lg hover:text-gray-300 transition-all duration-500 ${
+            menuOpen ? "animate-slideIn" : "animate-slideOut"
+          }`}
+        >
+          Projects
+        </Link>
       </div>
     </nav>
   );
 };
 
 export default NavBar;
+
